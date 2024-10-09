@@ -1,0 +1,10 @@
+#Una panadería vende barras de pan a 3.49€ cada una. El pan que no es el día tiene un descuento del 60%. Escribir un programa que comience leyendo el número de barras vendidas que no son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y la ganancia final total.
+pan = input('¿Cuantas barras de pan que no son del dia se han vendido hoy?')
+x = float(pan)
+y = (3.49)
+w = (60)
+z = ((x * y * w) / 100)
+round(z, 2)
+print('Una barra normal de pan vale', (y), '€')
+print('Le aplicamos un descuento del', (w), '%', 'por no ser fresca')
+print('El total de su compra es de :', (z), '€')
